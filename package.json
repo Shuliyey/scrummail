@@ -1,0 +1,28 @@
+{
+  "name": "scrummail",
+  "version": "0.0.0",
+  "description": "web application for managing scrum mail (Agile methodology)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuliyey/scrummail.git"
+  },
+  "keywords": [
+    "scrum",
+    "node",
+    "mongodb",
+    "koa",
+    "agile",
+    "mail",
+    "reactjs"
+  ],
+  "author": "叶泽宇 (Zeyu Ye)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shuliyey/scrummail/issues"
+  },
+  "homepage": "https://github.com/Shuliyey/scrummail#readme"
+}
