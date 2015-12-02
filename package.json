@@ -1,6 +1,6 @@
 {
   "name": "scrummail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "web application for managing scrum mail (Agile methodology)",
   "main": "app.js",
   "scripts": {
