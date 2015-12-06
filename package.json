@@ -4,7 +4,7 @@
   "description": "web application for managing scrum mail (Agile methodology)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -u bdd -R spec"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,22 @@
     "koa",
     "agile",
     "mail",
-    "reactjs"
+    "reactjs",
+    "json-server"
   ],
   "author": "叶泽宇 (Zeyu Ye)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Shuliyey/scrummail/issues"
   },
-  "homepage": "https://github.com/Shuliyey/scrummail#readme"
+  "homepage": "https://github.com/Shuliyey/scrummail#readme",
+  "dependencies": {
+    "json-server": "^0.8.3",
+    "koa": "^1.1.2"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  }
 }
