@@ -2,7 +2,7 @@
   "name": "scrummail",
   "version": "0.0.3",
   "description": "web application for managing scrum mail (Agile methodology)",
-  "main": "app.js",
+  "main": "./scrum/app.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -u bdd -R spec"
   },
@@ -28,7 +28,11 @@
   "homepage": "https://github.com/Shuliyey/scrummail#readme",
   "dependencies": {
     "json-server": "^0.8.3",
-    "koa": "^1.1.2"
+    "koa": "^1.1.2",
+    "koa-connect": "^1.0.0",
+    "koa-route": "^2.4.2",
+    "koa-router": "^5.3.0",
+    "node-config": "0.0.2"
   },
   "devDependencies": {
     "co": "^4.6.0",
