@@ -8,11 +8,10 @@ var jsonServerRoute = jsonServer.router(__dirname + '/db.json');
 
 server.use("/api/db", jsonServerRoute);
 
-app = koa();
+var app = koa();
 app.use(c2k(server));
 app.use(route.get("/", function * () {
   this.body = "Hello World";
 }));
-app.listen(3000);
 
 module.exports = app;

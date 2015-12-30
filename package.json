@@ -2,7 +2,7 @@
   "name": "scrummail",
   "version": "0.0.3",
   "description": "web application for managing scrum mail (Agile methodology)",
-  "main": "./scrum/app.js",
+  "main": "./src/scrum/app.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -u bdd -R spec"
   },
