@@ -1,5 +1,6 @@
 var React = require("react/addons");
 var action = require("../actions/GroceryItemActionCreator.jsx");
+var guid = require("guid");
 
 module.exports = React.createClass({
   getInitialState: function () {
@@ -12,6 +13,7 @@ module.exports = React.createClass({
     e.preventDefault();
     console.log("Adding item! ", this.state.input);
     action.add({
+      id: guid.raw(),
       name: this.state.input
     });
     this.setState({

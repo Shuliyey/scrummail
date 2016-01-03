@@ -19,6 +19,8 @@ app.use(route.get("/", function * () {
   this.body = yield render("index");
 }));
 
+require("./routes/items.js")(app);
+
 app.listen(3000);
 
 module.exports = app;
